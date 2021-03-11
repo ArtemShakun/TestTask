@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="header">
+      <div class="wrapper">
+         <div class="header__inf">
+            <div class="header__title">Manager Products</div>
+            <div class="header__logo">
+               <img src="images/fox.svg" alt="">
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <div class="wrapper">
+      <div class="setting">
+
+         <div class="setting__filter">
+            <img src="images/filter.svg" alt="">
+            <button class="filter-id">ID</button>
+            <button class="filter-name">Name</button>
+            <button class="filter-age">Age</button>
+            <select name="" id="" class='filter-sort'>
+               <option value="">По возрастанию</option>
+               <option value="">По убыванию</option>
+            </select>
+         </div>
+
+         <div class="setting__view">
+            <div class="view-tabs">
+               <nav class="tabs__items">
+                  <a href="#list-view"><img src="images/list.svg" alt=""></a>
+                  <a href="#grid-view"><img src="images/grid.svg" alt=""></a>
+               </nav>
+            </div>
+            <div class="view-lang">
+               <label for="world-lang">
+                  <img src="images/world.svg" alt="">
+                  <select name="" id="world-lang" class='change-lang'>
+                     <option value="">RU</option>
+                     <option value="">EN</option>
+                  </select>
+               </label>
+            </div>
+         </div>
+
+
+      </div>
+
+      <div class="content">
+
+         <div id='list-view' class=" content-block">
+
+            <div class="list-view__user-title">
+               <div class="user-title__checkbox">
+                  <label for="">
+                     <input type="checkbox">
+                     Name
+                  </label>
+
+               </div>
+
+               <div class="user-title__age">Age</div>
+               <div class="user-title__phone">Phone</div>
+               <div class="user-title__favorite">Favorite</div>
+            </div>
+
+
+
+         </div>
+
+         <div id="grid-view" class=" content-block">
+
+            <div class="grid-view__user">
+
+
+            </div>
+
+         </div>
+
+
+
+      </div>
+   </div>
+
+
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
